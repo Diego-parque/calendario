@@ -1,0 +1,219 @@
+
+body{
+    font-family: "Indie Flower", cursive;
+    padding: 15px 0px;  
+    margin: 25px 10px 0 10px ;
+    background-color: white;
+    /* linear-gradient(450deg, rgb(13, 34, 78), rgb(28, 163, 82));
+       */ }
+        
+
+.contenedor-years{
+    background:rgba(86, 5, 5, 0.966);    
+    /* box-shadow: inset 7px 8px 7px 4px #2f332c9f;*/
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border:  3px solid  rgba(124, 16, 16, 0.897); 
+}
+.years-item{
+    font-size: 20px;
+    padding: 10px;   
+}
+.years-item > a {
+    text-decoration: none;
+    color: rgba(222, 210, 233, 0.897);
+}
+.years-item > a:hover {
+    text-decoration: none;
+    color: rgba(250, 221, 95, 0.897);
+    text-shadow: 5px 5px 5px  rgba(33, 7, 7, 0.897);
+}
+
+
+
+.contenedor-meses {
+
+    display: grid;
+    grid-template-columns: repeat(6,2fr);
+    height: 87px;
+    max-width: 1100px;
+    align-items:center ;
+    justify-items :center;
+    text-decoration: none;
+    background:rgba(86, 5, 5, 0.966);  
+    /* box-shadow: inset 16px 8px 7px 4px #2f332c9f;*/
+    border:  3px solid  rgba(124, 16, 16, 0.897); 
+    
+    
+}
+.meses-item{
+    font-size: 23px;
+    
+}
+.contenedor-meses a{
+    text-decoration: none;
+    color: rgba(222, 210, 233, 0.897);
+}
+.contenedor-meses a:hover{
+    text-decoration: none;
+    color: rgba(250, 221, 95, 0.897);
+    text-shadow: 5px 5px 5px  rgba(33, 7, 7, 0.897);
+}
+
+
+
+.contenedorh1-enero,.contenedorh1-febrero,.contenedorh1-marzo,
+.contenedorh1-abril,.contenedorh1-mayo,
+.contenedorh1-junio,.contenedorh1-julio,.contenedorh1-agosto,
+.contenedorh1-setiembre,.contenedorh1-octubre,.contenedorh1-noviembre,
+.contenedorh1-diciembre {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 30px;
+    max-width: 1100px; 
+    padding: 5px 10px;
+    margin: 10px 0px;
+    color: rgba(6, 5, 8, 0.897);  
+    line-height: 45px;
+    
+}
+
+
+.contenedor-enero, .contenedor-febrero,.contenedor-marzo,
+.contenedor-abril,.contenedor-mayo,.contenedor-junio,.contenedor-julio,
+.contenedor-agosto,.contenedor-setiembre,.contenedor-octubre,
+.contenedor-noviembre,.contenedor-diciembre{
+    display: grid;
+    grid-template-columns: repeat( 7 ,  1fr);
+    grid-auto-rows: 50px;
+    max-width: 1100px;  
+    padding: 0px;
+    border-bottom: 2px solid rgba(124, 16, 16, 0.897);
+}
+
+
+.contenedor-itemenero,.contenedor-itemfebrero,.contenedor-itemmarzo,
+.contenedor-itemabril,.contenedor-itemmayo,.contenedor-itemjunio,
+.contenedor-itemjulio,.contenedor-itemagosto,.contenedor-itemsetiembre,
+.contenedor-itemoctubre,.contenedor-itemnoviembre,.contenedor-itemdiciembre{
+    font-size: 20px;
+    color: rgba(8, 5, 20, 0.897);  
+    
+}
+
+
+.contenedor-enero a,.contenedor-itemfebrero a,.contenedor-itemmarzo a
+,.contenedor-itemabril a,.contenedor-itemmayo a,.contenedor-itemjunio a,
+.contenedor-itemjulio a,.contenedor-itemagosto a,.contenedor-itemsetiembre a,
+.contenedor-itemoctubre a,.contenedor-itemnoviembre a,.contenedor-itemdiciembre a{
+    text-decoration: none;
+    color: rgba(4, 3, 8, 0.897);  
+}
+
+
+.contenedor-itemenero:nth-child(-n + 7),.contenedor-itemfebrero:nth-child(-n + 7),.contenedor-itemmarzo:nth-child(-n + 7)
+,.contenedor-itemabril:nth-child(-n + 7),.contenedor-itemmayo:nth-child(-n + 7),.contenedor-itemjunio:nth-child(-n + 7)
+,.contenedor-itemjulio:nth-child(-n + 7),.contenedor-itemagosto:nth-child(-n + 7),.contenedor-itemsetiembre:nth-child(-n + 7),
+.contenedor-itemoctubre:nth-child(-n + 7),.contenedor-itemnoviembre:nth-child(-n + 7),.contenedor-itemdiciembre:nth-child(-n + 7){
+    padding: 2px;
+    text-align: center;
+    line-height: 40px;  
+    text-decoration: underline;
+}
+
+
+.contenedor-itemenero:nth-child(n + 8),.contenedor-itemfebrero:nth-child(n + 8),.contenedor-itemmarzo:nth-child(n + 8)
+,.contenedor-itemabril:nth-child(n + 8),.contenedor-itemmayo:nth-child(n + 8),.contenedor-itemjunio:nth-child(n + 8)
+,.contenedor-itemjulio:nth-child(n + 8),.contenedor-itemagosto:nth-child(n + 8),.contenedor-itemsetiembre:nth-child(n + 8)
+,.contenedor-itemoctubre:nth-child(n + 8),.contenedor-itemnoviembre:nth-child(n + 8),.contenedor-itemdiciembre:nth-child(n + 8){ 
+    padding: 2px;
+    text-align: right;
+    line-height: 20px;
+    
+    
+}
+
+
+.contenedor-itemenero:nth-child(8){
+    grid-column-start: 2;
+}
+.contenedor-itemfebrero:nth-child(8){
+    grid-column-start: 5;
+}
+.contenedor-itemmarzo:nth-child(8){
+    grid-column-start: 6;
+}
+.contenedor-itemabril:nth-child(8){
+    grid-column-start: 2;
+}
+.contenedor-itemmayo:nth-child(8){
+    grid-column-start: 4;
+}
+.contenedor-itemjunio:nth-child(8){
+    grid-column-start: 7;
+}
+.contenedor-itemjulio:nth-child(8){
+    grid-column-start: 2;
+}
+.contenedor-itemagosto:nth-child(8){
+    grid-column-start: 5;
+}
+.contenedor-itemsetiembre:nth-child(8){
+    grid-column-start: 1;
+}
+.contenedor-itemoctubre:nth-child(8){
+    grid-column-start: 3;
+}
+.contenedor-itemnoviembre:nth-child(8){
+    grid-column-start: 6;
+}
+.contenedor-itemdiciembre:nth-child(8){
+    grid-column-start: 1;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .contenedor-years{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width: auto;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    .years-item{
+        font-size: 15px;
+    }
+    .contenedor-meses{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap:wrap;
+        height: auto;
+    }
+    .meses-item{
+        line-height: 25px;
+        font-size: 17px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .contenedor-itemenero,.contenedor-itemfebrero,.contenedor-itemmarzo,
+    .contenedor-itemabril,.contenedor-itemmayo,.contenedor-itemjunio{
+font-size: 13px;
+}
+    
+}
+
+
+/*
+background-image: url(imagenes/fondoprueba1.jpg);
+object-fit: cover;
+/*.contenedor-principal{
+    border: 3px solid black;
+
+}
+{}
+*/
